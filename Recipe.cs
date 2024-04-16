@@ -58,7 +58,7 @@ namespace RecipesApp
         {
             Console.Clear(); // Clear the console before displaying the recipe
 
-            // Set console colors for the header
+           
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Recipe:");
