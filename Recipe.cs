@@ -45,7 +45,7 @@ namespace RecipesApp
         {
             if (stepCount < steps.Length)
             {
-                steps[stepCount++] = step;// Add the step to the array
+                steps[stepCount++] = step;
             }
             else
             {
@@ -62,7 +62,7 @@ namespace RecipesApp
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Recipe:");
-            Console.ResetColor(); // Reset console colors
+            Console.ResetColor(); 
 
             // Display ingredients section
             Console.WriteLine("Ingredients:");
@@ -75,7 +75,7 @@ namespace RecipesApp
                 string ingredientLine = $"{ingredients[i].Quantity:0.##} {ingredients[i].Unit} of {ingredients[i].Name}";
                 Console.WriteLine(ingredientLine);
             }
-            Console.ResetColor(); // Reset console colors
+            Console.ResetColor(); 
 
             Console.WriteLine("------------------------------");
 
@@ -83,13 +83,13 @@ namespace RecipesApp
             Console.WriteLine("Steps:");
             Console.WriteLine("------------------------------");
 
-            // Set console colors for steps
+     
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             for (int i = 0; i < stepCount; i++)
             {
                 Console.WriteLine($"{i + 1}. {steps[i].Description}");
             }
-            Console.ResetColor(); // Reset console colors
+            Console.ResetColor(); 
 
             Console.WriteLine("------------------------------");
         }
