@@ -49,7 +49,7 @@ namespace RecipesApp
             }
             else
             {
-                Console.WriteLine("Cannot add more steps. Recipe capacity reached.");
+                Console.WriteLine("Cannot add more steps. Recipe capacity has been reached.");
             }
         }
 
