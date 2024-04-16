@@ -100,7 +100,7 @@ class Program
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Invalid quantity. Please enter a valid positive number.");
-                        Console.ForegroundColor = ConsoleColor.White; // Reset text color
+                        Console.ForegroundColor = ConsoleColor.White; 
                     }
                 } while (!validQuantity);
                 ingredient.Quantity = quantity;
