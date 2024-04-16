@@ -199,7 +199,7 @@ class Program
     static void ClearRecipe(Recipe recipe)
     {
         recipe.ClearRecipe();
-        Console.WriteLine("\nRecipe cleared.");
+        Console.WriteLine("\nRecipe has been cleared.");
     }
 }
 
