@@ -36,7 +36,7 @@ namespace RecipesApp
             }
             else
             {
-                Console.WriteLine("Cannot add more ingredients. Recipe capacity reached.");
+                Console.WriteLine("Cannot add more ingredients. Recipe capacity has been reached.");
             }
         }
 
