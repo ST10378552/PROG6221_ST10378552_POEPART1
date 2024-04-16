@@ -68,7 +68,7 @@ namespace RecipesApp
             Console.WriteLine("Ingredients:");
             Console.WriteLine("------------------------------");
 
-            // Set console colors for ingredients
+            
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             for (int i = 0; i < ingredientCount; i++)
             {
