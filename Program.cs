@@ -182,7 +182,7 @@ class Program
             {
                 Console.ForegroundColor = ConsoleColor.Red; // Set text color to red for error message
                 Console.WriteLine("Invalid scaling factor. Please enter a positive number.\n");
-                Console.ForegroundColor = ConsoleColor.White; // Reset text color
+                Console.ForegroundColor = ConsoleColor.White; 
             }
         } while (!validInput);
 
