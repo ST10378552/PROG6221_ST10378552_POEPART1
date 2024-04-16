@@ -89,7 +89,7 @@ class Program
                 bool validQuantity = false;
                 do
                 {
-                    Console.ForegroundColor = ConsoleColor.Green; // Set text color to green for user input
+                    Console.ForegroundColor = ConsoleColor.Green; /
                     Console.Write("Enter quantity: ");
                     Console.ForegroundColor = ConsoleColor.White; // Reset text color
                     if (double.TryParse(Console.ReadLine(), out quantity) && quantity > 0)
