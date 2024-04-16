@@ -10,7 +10,7 @@ class Program
         string userInput;
         bool exit = false;
 
-        Console.ForegroundColor = ConsoleColor.White; 
+        Console.ForegroundColor = ConsoleColor.White; //Set the font colour to white
         Console.WriteLine("Welcome to the Recipe App!\n");
 
         while (!exit)
